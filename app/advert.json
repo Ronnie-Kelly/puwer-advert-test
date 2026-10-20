@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "image": "https://ronnie-kelly.github.io/puwer-advert-test/app/adverts/test-advert-1.jpg",
+  "image": "https://ronnie-kelly.github.io/puwer-advert-test/app/adverts/test-advert-3.jpg",
   "link": "https://ronnie-kelly.github.io/puwer-advert-test/page-one.html",
-  "description": "Test advert 1: example artwork from the MSCS brief",
-  "version": 1
+  "description": "Test advert 3: example artwork from the MSCS brief",
+  "version": 2
 }

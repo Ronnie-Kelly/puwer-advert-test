@@ -1,0 +1,80 @@
+:root {
+  --blue: #1f4e79;
+  --light: #e8f1fa;
+  --text: #222;
+  --bg: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --light: #1d2a36;
+    --text: #e6e6e6;
+    --bg: #121212;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+}
+
+header {
+  background: var(--blue);
+  color: #fff;
+  padding: 16px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+nav a[aria-current="page"] {
+  background: rgba(255, 255, 255, 0.25);
+  font-weight: bold;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.card {
+  background: var(--light);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+  opacity: 0.7;
+  padding: 24px 16px;
+}
